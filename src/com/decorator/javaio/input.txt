@@ -1,0 +1,6 @@
+Hi everyone,
+this is the second line (2nd).
+This is third
+
+Above me is empty line
+Endofline
