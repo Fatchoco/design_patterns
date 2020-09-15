@@ -9,9 +9,8 @@ public class ChicagoStylePizzaStore extends PizzaStore {
             pizza = new ChicagoStyleClamPizza();
         } else if (type.equalsIgnoreCase("veggie")) {
             pizza = new ChicagoStyleVeggiePizza();
-        } else {
-            pizza = new Pizza();
         }
+
         return pizza;
     }
 }

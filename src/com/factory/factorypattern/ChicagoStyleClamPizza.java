@@ -2,6 +2,9 @@ package com.factory.factorypattern;
 
 public class ChicagoStyleClamPizza extends Pizza {
     public ChicagoStyleClamPizza() {
-        setPizzaName("Chicago Style Clam Pizza");
+        pizzaName = "Chicago Style Clam Pizza";
+        dough = "Extra Thick Crust Dough";
+        sauce = "PLum Tomato Sauce";
+        toppings.add("Shredded Mozzarella Cheese");
     }
 }
