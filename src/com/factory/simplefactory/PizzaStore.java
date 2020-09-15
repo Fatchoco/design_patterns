@@ -3,16 +3,9 @@ package com.factory.simplefactory;
 public class PizzaStore {
     public Pizza orderPizza(String type) {
         Pizza pizza;
+        SimplePizzaFactory pf = new SimplePizzaFactory();
 
-        if (type.equalsIgnoreCase("cheese")) {
-            pizza = new CheesePizza();
-        } else if (type.equalsIgnoreCase("clam")) {
-            pizza = new ClamPizza();
-        } else if (type.equalsIgnoreCase("veggie")) {
-            pizza = new VeggiePizza();
-        } else {
-            pizza = new Pizza();
-        }
+        pizza = pf.createPizza(type);
 
         pizza.prepare();
         pizza.bake();
