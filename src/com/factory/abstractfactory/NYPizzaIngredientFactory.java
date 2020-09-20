@@ -1,5 +1,7 @@
 package com.factory.abstractfactory;
 
+import com.factory.abstractfactory.ingredient.*;
+
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
     public Dough createDough() {

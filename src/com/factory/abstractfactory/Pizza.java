@@ -1,5 +1,7 @@
 package com.factory.abstractfactory;
 
+import com.factory.abstractfactory.ingredient.*;
+
 import java.util.ArrayList;
 
 public abstract class Pizza {
@@ -32,21 +34,5 @@ public abstract class Pizza {
 
     public void setPizzaName(String pizzaName) {
         this.pizzaName = pizzaName;
-    }
-
-    public String getDough() {
-        return dough;
-    }
-
-    public void setDough(String dough) {
-        this.dough = dough;
-    }
-
-    public String getSauce() {
-        return sauce;
-    }
-
-    public void setSauce(String sauce) {
-        this.sauce = sauce;
     }
 }
